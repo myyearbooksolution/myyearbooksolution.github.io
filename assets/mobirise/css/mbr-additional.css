@@ -2365,13 +2365,13 @@ body {
 
 .cid-r5mQSgcxr2 {
 @fullScreen: false;
-@paddingTop: 2;
-@paddingBottom: 0;
+@paddingTop: 1;
+@paddingBottom: 2;
 @showTitle: true;
 @showText: true;
 @showButtons: false;
 @showIcons: false;
-@showArrow: false;
+@showArrow: true;
 @cardsCount: "2";
 @uname__12: "../../app/themes/mobirise4/components/header12/../_images/img/03.jpg";
 @uname__13: true;
@@ -2427,10 +2427,10 @@ body {
 @cardsAmount: "2";
 @uname__10: "../../app/themes/mobirise4/components/features2/../_images/background2.jpg";
 @uname__11: true;
-@uname__12: #f9f9f9;
-@bg-value: #f9f9f9;
+@uname__12: #efefef;
+@bg-value: #efefef;
 @bg-type: "color";
-@bg-color-value: #f9f9f9;
+@bg-color-value: #efefef;
 @bg-parallax: false;
 @overlay: true;
 @overlayColor: #efefef;
@@ -2461,6 +2461,7 @@ p {
 }
 P {
   text-align: left;
+  color: #232323;
 }
 }
 
@@ -2472,10 +2473,10 @@ P {
 @cardsAmount: "2";
 @uname__10: "../../app/themes/mobirise4/components/features9/../_images/background2.jpg";
 @uname__11: true;
-@uname__12: #fff8d8;
-@bg-value: #fff8d8;
+@uname__12: #d8feff;
+@bg-value: #d8feff;
 @bg-type: "color";
-@bg-color-value: #fff8d8;
+@bg-color-value: #d8feff;
 @bg-parallax: false;
 @overlay: false;
 @overlayColor: #efefef;
@@ -2520,6 +2521,9 @@ p {
   .card-box {
     padding-left: 0;
   }
+}
+P {
+  color: #232323;
 }
 }
 
